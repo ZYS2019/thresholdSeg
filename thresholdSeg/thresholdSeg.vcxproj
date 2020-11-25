@@ -120,7 +120,19 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="CircleFit.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="Polar.cpp" />
+    <ClCompile Include="thresholdSeg.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CircleFit.h" />
+    <ClInclude Include="Polar.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="thresholdSeg.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="thresholdSeg.rc" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
